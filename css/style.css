@@ -1,5 +1,7 @@
 body {
     background-color: black;
+    text-align: center;
+    font-family: "Avenir";
 }
 
 .iphone11pro {
@@ -13,3 +15,43 @@ body {
 .applewatch {
     background-color: white
 }
+
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+    text-decoration: none;
+  }
+  
+a:hover {
+    text-decoration: underline;
+  }
+  
+a:active {
+    text-decoration: underline;
+  }
+
+.link {
+    color: rgb(52, 154, 238);
+    /* word-spacing: 2rem; */
+}
+
+.menu-link {
+    color: white;
+    text-align: left;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: grey;
+}
+
+/* 궁금한거
+1. 메뉴창 만드는거
+2. learn more/ pre-order 사이에 spacing */
