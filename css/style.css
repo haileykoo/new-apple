@@ -13,7 +13,7 @@ body {
 }
 
 .iphone11 {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .applewatch {
@@ -49,6 +49,7 @@ a:active {
 .menu-link {
     color: white;
     text-align: left;
+    margin: 1em;
 }
 
 h1 {
@@ -65,6 +66,17 @@ h2 {
     color: grey;
 }
 
+.homebar {
+    display: inline-block;
+}
+
+.click-more {
+    display: inline-block;
+}
+
+.search-box {
+    background-color: rgb(54, 54, 54);
+}
 /* 궁금한거
 1. 메뉴창 만드는거
 2. learn more/ pre-order 사이에 spacing */
